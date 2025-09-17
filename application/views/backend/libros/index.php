@@ -14,7 +14,7 @@
         <div class="box-body">
             <div class="row">
                 <div class="col-md-12 text-right">
-                    <a href="<?php echo base_url(); ?>backend/libros/add" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Nuevo Libro</a>
+                    <a href="<?php echo base_url(); ?>backend/libros/add" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Nuevo Documento</a>
                 </div>
             </div>
             <!-- /.row -->
