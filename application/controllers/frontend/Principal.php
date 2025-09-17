@@ -37,7 +37,7 @@ class Principal extends CI_Controller
             $libros = $this->Libros_model->getLibros();
         }
         $data = array(
-            'title'      => "Sistema de Prestamos de Ejemplares de Proyecto de Grado ////biblioteca",
+            'title'      => "Sistema de Préstamos de Ejemplares de Proyecto de Grado ////biblioteca",
             'facultades' => $this->Facultades_model->getFacultades(),
             'libros'     => $libros,
         );
