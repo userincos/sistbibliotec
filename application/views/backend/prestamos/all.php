@@ -19,7 +19,7 @@
                             <tr>
                                 <th>#</th>
                                 <th>Codigo de Libro</th>
-                                <th>CI/NIT</th>
+                                <th>CI</th>
                                 <th>Lector</th>
                                 <th>Fec. de Prestamo</th>
                                 <th>Fec. de Devolucion</th>
