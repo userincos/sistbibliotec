@@ -9,9 +9,9 @@ MODULOS
 *******************
 
 1. Acceso al Sistema
-2. Faculades
+2. Area de estudio
 3. Lectores
-4. Libros
+4. Documentos
 5. Prestamos
 6. Usuarios
 
