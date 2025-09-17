@@ -73,7 +73,7 @@ class Usuarios extends CI_Controller
                 'nombres'       => ucwords($nombres),
                 'apellidos'     => ucwords($apellidos),
                 'ci'           => $ci,
-                'celular'      => $telefono,
+                'No. de celular'      => $telefono,
                 'email'         => $email,
                 'pass_usuario'  => md5($password),
                 'idtipousuario' => $idtipousuario,
