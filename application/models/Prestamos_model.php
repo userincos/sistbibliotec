@@ -44,7 +44,7 @@ class Prestamos_model extends CI_Model
     public function delete($id)
     {
         $this->db->where("id_libro", $id);
-        return $this->db->delete("libros");
+        return $this->db->delete("li bros");
     }
 
 }
