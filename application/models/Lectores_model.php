@@ -19,7 +19,7 @@ class Lectores_model extends CI_Model
     {
 
         $this->db->select("l.*,t.nombre as nombre");
-        $this->db->join("tipolector t", "t.id = l.id_tipolector");
+        $this->db->join("ti polector t", "t.id = l.id_tipolector");
         $this->db->where("l.id_lector", $id);
         $resultados = $this->db->get("lectores l");
         if ($resultados->num_rows() > 0) {
