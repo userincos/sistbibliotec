@@ -18,11 +18,11 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Codigo de Libro</th>
+                                <th>Código de Libro</th>
                                 <th>CI</th>
                                 <th>Lector</th>
-                                <th>Fec. de Prestamo</th>
-                                <th>Fec. de Devolucion</th>
+                                <th>Fecha de Préstamo</th>
+                                <th>Fecha de Devolución</th>
                                 <th>Estado</th>
                             </tr>
                         </thead>
