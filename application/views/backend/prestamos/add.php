@@ -2,7 +2,7 @@
       <!-- Default box -->
     <div class="box">
         <div class="box-header with-border">
-            <h3 class="box-title">Registrar Prestamo</h3>
+            <h3 class="box-title">Registrar Préstamo</h3>
 
             <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -19,9 +19,9 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Codigo</th>
+                                <th>Código</th>
 
-                                <th>Titulo</th>
+                                <th>Título</th>
 
                                 <th>Estado</th>
                                 <th>Carrera</th>
