@@ -27,8 +27,8 @@
                                 <th>#</th>
                                 <th>Nombres</th>
                                 <th>Apellidos</th>
-                                <th>CI/NIT</th>
-                                <th>Telefono</th>
+                                <th>CI</th>
+                                <th>No de Celular</th>
                                 <th>Email</th>
                                 <th>Tipo de Usuario</th>
                                 <th>Acciones</th>
