@@ -2,7 +2,7 @@
       <!-- Default box -->
     <div class="box">
         <div class="box-header with-border">
-            <h3 class="box-title">Lista de  Libros</h3>
+            <h3 class="box-title">Lista de Documentos/Ejemplares</h3>
 
             <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -14,7 +14,7 @@
         <div class="box-body">
             <div class="row">
                 <div class="col-md-12 text-right">
-                    <a href="<?php echo base_url(); ?>backend/libros/add" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Nuevo Libro</a>
+                    <a href="<?php echo base_url(); ?>backend/libros/add" class="btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Nuevo Documento</a>
                 </div>
             </div>
             <!-- /.row -->

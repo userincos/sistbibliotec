@@ -2,7 +2,7 @@
       <!-- Default box -->
     <div class="box">
         <div class="box-header with-border">
-            <h3 class="box-title">Lista de  Lectores</h3>
+            <h3 class="box-title">Lista de Lectores</h3>
 
             <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip" title="Collapse">
@@ -27,8 +27,8 @@
                                 <th>#</th>
                                 <th>Nombres</th>
                                 <th>Apellidos</th>
-                                <th>CI/NIT</th>
-                                <th>Telefono</th>
+                                <th>CI</th>
+                                <th>No de Celular</th>
                                 <th>Direccion</th>
                                 <th>Disponible</th>
                                 <th>Tipo de Lector</th>

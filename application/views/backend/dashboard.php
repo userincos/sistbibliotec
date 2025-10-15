@@ -32,7 +32,7 @@
                     </div>
                     <div class="box-header text-center">
                           <a href="<?php echo base_url();?>backend/libros/add" class="small-box-footer">
-                            Registrar Libro <i class="fa fa-arrow-circle-right"></i>
+                            Registrar Documento <i class="fa fa-arrow-circle-right"></i>
                           </a>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="box-header text-center">
                           <a href="<?php echo base_url();?>backend/facultades/add" class="small-box-footer">
-                            Registrar Carrera <i class="fa fa-arrow-circle-right"></i>
+                            Registrar Área de Estudio <i class="fa fa-arrow-circle-right"></i>
                           </a>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                     </div>
                     <div class="box-header text-center">
                           <a href="<?php echo base_url();?>backend/prestamos/add" class="small-box-footer">
-                            Registrar Prestamo <i class="fa fa-arrow-circle-right"></i>
+                            Registrar Préstamo <i class="fa fa-arrow-circle-right"></i>
                           </a>
                     </div>
                 </div>
