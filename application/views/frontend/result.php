@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Biblioteca umss ceii - <?php echo $title; ?></title>
+    <title>Biblioteca Centro de Estudiantes de Ingeniería Indutrial UMSS - <?php echo $title; ?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -25,7 +25,7 @@
 <body>
     <div class="content">
         <div class="header">
-            <h1>Sistema de Gestion de Ejemplares de Proyecctos de Grado</h1>
+            <h1>Sistema de Gestión de Ejemplares de Proyectos de Grado</h1>
         </div>
         <div class="container content-search">
             <div class="row">
@@ -47,7 +47,7 @@
                         </div>
                         <div class="col-md-3">
                             <select class="form-control" name="facultdad">
-                                <option value="">Seleccione Carrera...</option>
+                                <option value="">Seleccione Área de estudio...</option>
                                 <?php foreach ($facultades as $facultad): ?>
                                     <?php if ($this->session->flashdata('facultad') && $this->session->flashdata('facultad') == $facultad->id): ?>
                                         <option value="<?php echo $facultad->id; ?>" selected="selected"><?php echo $facultad->nombre; ?></option>
@@ -71,12 +71,12 @@
                     <table id="example2" class="table table-bordered table-hover">
                         <thead>
                             <tr>
-                                <th>Codigo</th>
-                                <th>Codigo Interno</th>
+                                <th>Código</th>
+                                <th>Código Interno</th>
                                 <th>Titulo</th>
                                 <th>Autor</th>
                                 <th>Disponibles</th>
-                                <th>Carrera</th>
+                                <th>Área de Estudio</th>
                                 <th>Detalle</th>
                             </tr>
                         </thead>
@@ -114,7 +114,7 @@
                 <div class="modal-header text-blue">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title">DESCRIPCION DEL EJEMPLAR</h4>
+                    <h4 class="modal-title">CÓDIGO QR DEL EJEMPLAR</h4>
                 </div>
                 <div class="modal-body">
                     <div class="row">
