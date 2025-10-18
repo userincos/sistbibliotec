@@ -3,7 +3,7 @@
 <?php endif;?>
 <div class="col-md-6">
     <div class="form-group <?php echo form_error('codigo') == true ? 'has-error' : '' ?>">
-        <label for="codigo">Codigo</label>
+        <label for="codigo">Código</label>
         <?php if (isset($libro->codigo_libro)): ?>
             <input type="text" class="form-control" id="codigo" name="codigo" placeholder="Codigo" value="<?php echo $libro->codigo_libro; ?>">
         <?php else: ?>
@@ -21,7 +21,7 @@
 
     </div>
     <div class="form-group <?php echo form_error('titulo') == true ? 'has-error' : '' ?>">
-        <label for="titulo">Titulo</label>
+        <label for="titulo">Título</label>
         <?php if (isset($libro->titulo_libro)): ?>Titulo
             <input type="text" class="form-control" id="titulo" name="titulo" placeholder="Titulo" value="<?php echo $libro->titulo_libro; ?>">
         <?php else: ?>
@@ -30,7 +30,7 @@
         <?php echo form_error('titulo'); ?>
     </div>
     <div class="form-group">
-        <label for="subtitulo">Subtitulo</label>
+        <label for="subtitulo">Subtítulo</label>
         <?php if (isset($libro->subtitulo_libro)): ?>
             <input type="text" class="form-control" id="subtitulo" name="subtitulo" placeholder="Subtitulo" value="<?php echo $libro->subtitulo_libro; ?>">
         <?php else: ?>
@@ -68,7 +68,7 @@
     </div>
 
     <div class="form-group">
-        <label for="ediccion">Ediccion</label>
+        <label for="ediccion">Edición</label>
         <?php if (isset($libro->ediccion_libro)): ?>
             <input type="text" class="form-control" id="ediccion" name="ediccion" placeholder="Ediccion" value="<?php echo $libro->ediccion_libro; ?>">
         <?php else: ?>
@@ -93,7 +93,7 @@
         <?php echo form_error('ejemplares'); ?>
     </div>
     <div class="form-group <?php echo form_error('idfacultad') == true ? 'has-error' : '' ?>">
-        <label for="idfacultad" class="control-label">Carrera</label>
+        <label for="idfacultad" class="control-label">Área de Estudio</label>
         <select name="idfacultad" id="idfacultad" class="form-control">
             <option value="">Seleccione...</option>
             <?php foreach ($facultades as $facultad): ?>
