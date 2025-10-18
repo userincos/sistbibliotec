@@ -25,7 +25,7 @@
 
     </div>
     <div class="form-group <?php echo form_error('ci') == true ? 'has-error' : '' ?>">
-        <label for="ci">CI/NIT</label>
+        <label for="ci">CI</label>
         <?php if (isset($lector->ci)): ?>
             <?php $valor = form_error('ci') == true ? set_value('ci') : $lector->ci;?>;
             <input type="text" class="form-control" id="ci" name="ci" placeholder="CI/NIT" value="<?php echo $valor; ?>">
