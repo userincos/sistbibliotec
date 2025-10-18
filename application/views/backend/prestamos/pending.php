@@ -21,7 +21,7 @@
                                 <th>Código de Documento</th>
                                 <th>CI</th>
                                 <th>Lector</th>
-                                <th>Fecha de Prestamo</th>
+                                <th>Fecha de Préstamo</th>
                                 <th>Acción</th>
                             </tr>
                         </thead>
