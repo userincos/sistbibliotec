@@ -70,13 +70,13 @@
           <div class="modal-header text-center">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span></button>
-                <strong>FORMULARIO DE PRESTAMO</strong>
+                <strong>FORMULARIO DE PRÉSTAMO</strong>
           </div>
           <form class="form-horizontal" id="form-prestamo" role="form" action="<?php echo base_url(); ?>backend/prestamos/store" method="POST">
           <div class="modal-body">
 
                 <div class="form-group">
-                    <label  class="col-sm-3 control-label" for="codigo">Codigo del Libro:</label>
+                    <label  class="col-sm-3 control-label" for="codigo">Código del Documento:</label>
                     <div class="col-sm-4">
                         <input type="hidden" name="idLibro">
                         <input type="text" class="form-control" id="codigo" disabled="disabled" />
@@ -99,7 +99,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="fecha" class="col-md-3 control-label">Fecha Prestamo:</label>
+                    <label for="fecha" class="col-md-3 control-label">Fecha del Préstamo:</label>
                     <div class="col-md-4">
                         <input type="text" name="fecprestamo" class="form-control" id="fecha" placeholder="Ingrese fecha de Prestamo" required>
                     </div>
