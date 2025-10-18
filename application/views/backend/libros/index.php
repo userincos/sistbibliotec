@@ -25,13 +25,13 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Codigo</th>
-                                <th>Codigo Interno</th>
-                                <th>Titulo</th>
+                                <th>Código</th>
+                                <th>Código Interno</th>
+                                <th>Título</th>
                                 <th>Autor</th>
                                 <th>Ejemplares</th>
                                 <th>Imagen</th>
-                                <th>Carrera</th>
+                                <th>Área de Estudio</th>
                                 <th>Acciones</th>
                             </tr>
                         </thead>
@@ -75,16 +75,16 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title">PORTADA DEL LIBRO</h4>
+                <h4 class="modal-title">Imágen del Documento</h4>
             </div>
           <div class="modal-body">
                 <div class="row">
                     <div class="col-sm-4">
-                        <h4>Portada Actual</h4>
+                        <h4>Imágen Actual</h4>
                         <img src="" alt="Portada Actual" class="image-actual img-responsive">
                     </div>
                     <div class="col-sm-8">
-                        <h4>Cambiar Imagen de Portada</h4>
+                        <h4>Cambiar Imágen inicial</h4>
                         <form action="<?php echo base_url(); ?>backend/libros/changeImage" method="POST" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label class="control-label" for="imagen">Seleccione Imagen:</label>
