@@ -43,7 +43,7 @@
 </div>
 <div class="col-md-6">
     <div class="form-group <?php echo form_error('ci') == true ? 'has-error' : '' ?>">
-        <label for="ci">ci</label>
+        <label for="ci">C I </label>
         <?php if (isset($usuario->ci)): ?>
             <?php $valor = form_error('ci') == true ? set_value('ci') : $usuario->ci;?>;
             <input type="text" class="form-control" id="ci" name="ci" placeholder="ci" value="<?php echo $valor; ?>" required>
