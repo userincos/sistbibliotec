@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Biblioteca Ingeniería Industrial - UMSS - <?php echo $title; ?></title>
+	<title>Biblioteca del Centro de Estudiantes de Ingeniería Industrial - UMSS - <?php echo $title; ?></title>
 	<!-- Tell the browser to be responsive to screen width -->
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<!-- Bootstrap 3.3.6 -->
@@ -35,7 +35,7 @@
 			<!-- mini logo for sidebar mini 50x50 pixels -->
 			<span class="logo-mini"><b>BLT</b></span>
 			<!-- logo for regular state and mobile devices -->
-			<span class="logo-lg"><b>Biblioteca Incos</b></span>
+			<span class="logo-lg"><b>Biblioteca CEII - UMSS</b></span>
 		</a>
 		<!-- Header Navbar: style can be found in header.less -->
 		<nav class="navbar navbar-static-top">
@@ -71,13 +71,13 @@
 				<li class="<?php echo $this->uri->segment(2) === "dashboard" ? 'active' : '' ?> treeview">
 					<a href="<?php echo base_url(); ?>backend/dashboard">
 						<i class="fa fa-dashboard"></i>
-						<span>DASHBOARD</span>
+						<span>MENU PRINCIPAL</span>
 					</a>
 				</li>
 				<li class="<?php echo $this->uri->segment(2) === "facultades" ? 'active' : '' ?> treeview">
 					<a href="<?php echo base_url(); ?>backend/facultades">
 						<i class="fa fa-desktop" aria-hidden="true"></i>
-						<span>CARRERAS</span>
+						<span>Área de Estudio</span>
 					</a>
 
 				</li>
@@ -91,13 +91,13 @@
 				<li class="<?php echo $this->uri->segment(2) === "libros" ? 'active' : '' ?> treeview">
 					<a href="<?php echo base_url(); ?>backend/libros">
 						<i class="fa fa-book" aria-hidden="true"></i>
-						<span>EJEMPLARES</span>
+						<span>EJEMPLARES/Documentos</span>
 					</a>
 				</li>
 				<li class="<?php echo $this->uri->segment(2) === "prestamos" ? 'active' : '' ?> treeview">
 		          	<a href="#">
 		            	<i class="fa fa-share-alt" aria-hidden="true"></i>
-		            	<span>PRESTAMOS</span>
+		            	<span>PRÉSTAMOS</span>
 		            	<span class="pull-right-container">
 		              		<i class="fa fa-angle-left pull-right"></i>
 		            	</span>
@@ -162,7 +162,7 @@
 	<!-- /.content-wrapper -->
 	<footer class="main-footer">
 		<div class="pull-right hidden-xs">
-			<b>Version</b> .
+			<!--//<b>Version</b> .-->
 		</div>
 		<strong>. &copy; . <a href="">.</a>.</strong> 
 		...
