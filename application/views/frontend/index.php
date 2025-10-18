@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Biblioteca Centro de estudiantes de ingenieria industrial UMSS - <?php echo $title; ?></title>
+    <title>Biblioteca del Centro de estudiantes de ingenieria industrial UMSS - <?php echo $title; ?></title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.6 -->
@@ -19,7 +19,7 @@
 <body>
     <div class="content">
         <div class="header">
-            <h1>Sistema de Gestión Prestamos Ejemplares Proyectos de Grado</h1>
+            <h1>Sistema de Gestión de Prestamos Ejemplares Proyectos de Grado</h1>
         </div>
         <div class="content-link">
              <a href="<?php echo base_url(); ?>frontend/principal/search"><i class="fa fa-book" aria-hidden="true"></i>  LIBRO</a>
